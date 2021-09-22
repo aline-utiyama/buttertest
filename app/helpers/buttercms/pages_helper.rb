@@ -1,0 +1,2 @@
+module Buttercms::PagesHelper
+end

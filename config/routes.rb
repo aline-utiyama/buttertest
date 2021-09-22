@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  root to: 'pages#home'
+
   scope :module => 'buttercms' do
     get '/categories/:slug' => 'categories#show', :as => :buttercms_category
     get '/author/:slug' => 'authors#show', :as => :buttercms_author
